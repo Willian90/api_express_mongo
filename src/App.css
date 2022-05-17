@@ -104,7 +104,7 @@ input {
   }
 }
 
-@media screen and (min-width: 340px) and (max-width: 640px) {
+@media screen and (min-width: 140px) and (max-width: 640px) {
   .App {
     width: 100%;
     display: flex;
