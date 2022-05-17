@@ -99,15 +99,16 @@ const addUser=async()=>{
         fetch(`https://api-express-mong.herokuapp.com/api/user/${id}`,{method:"DELETE"})
          .then(res=>res.json())
         //alert(json);
+         
         .then(json=>swal(json," ", "success"))
-        get(); 
         }
-
-    });  
+      
+    });
      
   }
   
-
+  get();
+  
   useEffect(() => {
     get();
 
