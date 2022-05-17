@@ -113,17 +113,18 @@ input {
     align-items: center;
   }
 
-  table {
-    width: 90%;
+  form,
+  input {
+    width: 80%;
   }
 
   form {
-    width: 100%;
+    margin: 0 auto;
   }
 
   table {
-    width: 90%;
     margin: 0 auto;
-    margin-bottom: 20px;
+    width: 90%;
+    margin-bottom: 10px;
   }
 }
